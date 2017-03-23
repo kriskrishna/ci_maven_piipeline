@@ -1,0 +1,10 @@
+---
+applications:
+- name: pipeline-demo-rpe
+  memory: 512M
+  disk_quota: 256M
+  instances: 1
+  host: pipeline-demo-rpe
+  domain: apps.pcfpre-phx.cloud.boeing.com
+  path: target/pipeline-demo-0.0.1-SNAPSHOT.war
+  buildpack: java_buildpack_offline_latest
